@@ -58,26 +58,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\style.css" />
-    <Content Include="Default.aspx" />
-    <Content Include="slides.aspx" />
+    <Content Include="MenuAndslides.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <SubType>ASPXCodeBehind</SubType>
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="InvalidDataReaderException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="slides.aspx.cs">
-      <DependentUpon>slides.aspx</DependentUpon>
+    <Compile Include="MenuAndslides.aspx.cs">
+      <DependentUpon>MenuAndslides.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="slides.aspx.designer.cs">
-      <DependentUpon>slides.aspx</DependentUpon>
+    <Compile Include="MenuAndslides.aspx.designer.cs">
+      <DependentUpon>MenuAndslides.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
